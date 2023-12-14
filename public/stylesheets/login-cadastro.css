@@ -1,0 +1,126 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #eaad60;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+  }
+  
+  .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffe9;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+      text-align: center;
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  label {
+      margin-bottom: 8px;
+  }
+  
+  h1 {
+      text-align: center;
+      color: #eaad60; 
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #eaad60;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+  
+  button {
+      background-color: #e5795a;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      transition: background-color 0.3s;
+  }
+  
+  .login-link {
+      color: #eaad60; 
+      text-decoration: none; 
+      font-weight: bold; 
+  }
+  
+  .login-link:hover {
+      text-decoration: underline; 
+  }
+  
+  .centered-text {
+      text-align: center;
+  }
+  
+  .login-link {
+      text-decoration: none; 
+      font-weight: bold; 
+  }
+  
+  .login-link:hover {
+      text-decoration: underline; 
+  }
+  
+  
+  #login-form {
+      margin-top: 20px; 
+  }
+  
+  
+  #login-form input[type="email"],
+  #login-form input[type="password"] {
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+  
+  #login-form button {
+      background-color: #e5795a; 
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      transition: background-color 0.3s;
+  }
+  
+  .centered-text p {
+      font-size: 16px;
+      color: #333; 
+  }
+  
+  .centered-text a {
+      color: #eaad60;
+      text-decoration: none; 
+      font-weight: bold; 
+  }
+  
+  .centered-text a:hover {
+      text-decoration: underline; 
+  }

@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+      font-family: "Helvetica Neue", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffe9;
+      height: 100%;
+     width: 100%;
+  }
+  
+  
+  header {
+      background-color: #eaad60;
+      color: #fff1d1;
+      text-align: center;
+      padding: 20px;
+  }
+  
+  header h1 {
+      margin: 0;
+  }
+  
+  header img {
+      max-width: 300px;
+      margin-top: 20px;
+      border-radius: 5px;
+  }
+  
+  .info {
+      background-color: #ffffe9;
+      padding: 20px;
+      border-radius: 5px;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info h2 {
+      font-size: 24px;
+      color: #212121;
+      margin-bottom: 10px;
+  }
+  
+  .info p {
+      font-size: 16px;
+      color: #525252;
+      line-height: 1.4;
+  }
+  
+  .favoritos {
+      background-color: #eaad60;
+      padding: 20px;
+      text-align: center;
+      border-top: 1px solid #fff1d1; 
+      margin: 0;
+      font-size: 18px;
+      color: #fff1d1;
+  }
+  
+  #numero-favoritos {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff1d1;
+  }
+  
+  #botao-favoritar {
+      background-color: #e5795a;
+      color: #fff1d1;
+      border: 1px solid #e5795a;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+      border-radius: 5px; 
+  }
+  
+  #botao-favoritar:hover {
+      background-color: #e04d24;
+      color: white;
+  }
+  .favorite-sidebar {
+      background-color: #eaad60;
+      color: white;
+      width: 250px;
+      padding: 10px;
+      height: 100%;
+      overflow-y: auto;
+  }
+  
+  .favorite-album {
+      display: flex;
+      align-items: center;
+      padding: 18px;
+      border-bottom: 1px solid #ffffff;
+      transition: background-color 0.3s;
+    
+  }
+  
+  .favorite-album:hover {
+      background-color: #fbd67e;
+  }
+  
+  .favorite-album img {
+      max-width: 55px;
+      height: auto;
+      margin-right: 10px;
+  }
+  
+  .favorite-album .album-title {
+      font-size: 17px;
+      font-weight: bold;
+  }
+  
+  .favorite-album .album-artist {
+      font-size: 15px;
+  }
+  
+  
+  

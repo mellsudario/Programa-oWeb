@@ -1,0 +1,197 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ background-color: #ffffe9;
+ height: 100%;
+ width: 100%;
+}
+
+
+header {
+ background-color: #eaad60;
+  color: white;
+  padding: 15px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+input[type="text"] {
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  background-color: #fee9b6;
+  float: left;
+  width: 25%;
+  padding: 20px;
+  height: 100vh; 
+  overflow-y: auto; 
+}
+
+main {
+  width: 75%;
+  padding: 20px;
+}
+
+aside h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+  float: right;
+  width: 75%;
+  padding: 20px;
+}
+
+h2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 27px;
+  color: #eaad60; 
+}
+.section-title {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #ffffff; 
+}
+
+
+.album-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.albums-container {
+  display: flex; 
+  flex-wrap: wrap;  
+  justify-content: space-between; 
+}
+
+.album-card {
+  position: relative;
+  flex: 0 0 calc(26.23% - 30px);
+  border-radius: 30px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 30px;
+  padding: 1px;
+  text-align: center;
+  background-color: white; 
+  transition: transform 0.2s; 
+}
+
+.album-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.album-card:hover {
+  transform: scale(1.03); 
+}
+
+
+.favorite-button {
+  background-color: #e5795a;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+text-decoration: none;
+}
+
+.favorite-button:hover {
+  background-color: #e04d24;
+  color: white;
+}
+.header-bar {
+  background-color: #fbd67e;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+ border-radius: 10px; 
+}
+
+.site-name {
+  margin: 0;
+  font-size: 19px;
+}
+
+header input[type="text"] {
+  padding: 17px;
+  margin: 0; 
+  border: none;
+  background-color: transparent; 
+  color: white;
+  width: 200px; 
+  transition: width 0.3s; 
+}
+
+header input[type="text"]:focus {
+  width: 300px; 
+}
+
+.favorite-sidebar {
+  background-color: #eaad60;
+  color: white;
+  width: 250px;
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.favorite-album {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  border-bottom: 1px solid #ffffff;
+  transition: background-color 0.3s;
+}
+
+.favorite-album:hover {
+  background-color: #fbd67e;
+}
+
+.favorite-album img {
+  max-width: 55px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.favorite-album .album-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.favorite-album .album-artist {
+  font-size: 15px;
+}

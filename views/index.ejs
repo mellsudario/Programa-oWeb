@@ -1,0 +1,178 @@
+<%- include('./partials/header')%>
+  
+<div class="container">
+    <aside class="favorite-sidebar">
+      <h2 class="section-title">Seus Álbuns Favoritos <h2>
+    <ul>
+     <nav>
+      <% albuns.forEach
+        <li class="favorite-album">
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/f8/Taylor_Swift_-_Folklore.png" alt="Capa do Álbum 1">
+            <div class="album-info">
+                <span class="album-title"> folklore </span>
+                <span class="album-artist">Artista: Taylor Swift</span>
+            </div>
+        </li>
+        <li class="favorite-album">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/e/eb/Mel_1979.jpg" alt="Capa do Álbum 2">
+            <div class="album-info">
+                <span class="album-title">Mel</span>
+                <span class="album-artist">Artista: Maria Bethânia</span>
+            </div>
+        </li>
+      <li class="favorite-album">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png" alt="Capa do Álbum 3">
+            <div class="album-info">
+                <span class="album-title">evermore</span>
+                <span class="album-artist">Artista: Taylor Swift</span>
+            </div>
+        </li>
+      <li class="favorite-album">
+            <img src="https://s2-g1.glbimg.com/mFSn3ut6h8utE10rcV83uwGSFAw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/b/9/BsIU7gSWGU9rGnbQb2bg/bacoexubluesman.jpg" alt="Capa do Álbum 4">
+            <div class="album-info">
+                <span class="album-title">Bluesman</span>
+                <span class="album-artist">Artista: Baco Exu do Blues</span>
+            </div>
+        </li>
+      <li class="favorite-album">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/6/6d/Capa_de_M%C3%BAsicas_para_Churrasco%2C_Vol._1.jpg" alt="Capa do Álbum 5">
+            <div class="album-info">
+                <span class="album-title">Músicas Para Churrasco, Vol. 1</span>
+                <span class="album-artist">Artista: Seu Jorge</span>
+            </div>
+        </li>
+      <li class="favorite-album">
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/2c/SZA_-_S.O.S.png" alt="Capa do Álbum 6">
+            <div class="album-info">
+                <span class="album-title">SOS</span>
+                <span class="album-artist">Artista: SZA</span>
+            </div>
+        </li>
+      <li class="favorite-album">
+            <img src="https://cvhsscribe.com/wp-content/uploads/2023/03/Lana_Del_Rey_Ocean_Blvd.jpg" alt="Capa do Álbum 7">
+            <div class="album-info">
+                <span class="album-title">Did You Know That There's a Tunnel Under Ocean Blvd</span>
+                <span class="album-artist">Artista: Lana Del Rey</span>
+            </div>
+        </li>
+      <li class="favorite-album">
+            <img src= "https://upload.wikimedia.org/wikipedia/en/5/5d/Faye_Webster_-_I_Know_I%27m_Funny_Haha.png" alt="Capa do Álbum 8">
+            <div class="album-info">
+                <span class="album-title">I Know I'm Funny Haha </span>
+                <span class="album-artist">Artista: Faye Webster</span>
+            </div>
+        </li>
+      <li class="favorite-album">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/a/a9/Marisa_Monte_-_O_Que_Voc%C3%AA_Quer_Saber_De_Verdade.jpg" alt="Capa do Álbum 9">
+            <div class="album-info">
+                <span class="album-title">O Que Você Quer Saber de Verdade</span>
+                <span class="album-artist">Artista: Marisa Monte</span>
+            </div>
+      </li>
+        </li>
+      <li class="favorite-album">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9b/2PacGreatestHits.jpg" alt="Capa do Álbum 10">
+            <div class="album-info">
+                <span class="album-title">Greatest Hits</span>
+                <span class="album-artist">Artista: Tupac Shakur</span>
+        </li>
+      </li>
+      <li class="favorite-album">
+            <img src="https://i.discogs.com/d84DUWNkQoW_8Gb7K9nNr5Hq6Xrexum_rmeetXM2EII/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4Mzgz/NzctMTYxNTY1Nzcw/Ni01ODUwLnBuZw.jpeg" alt="Capa do Álbum 11">
+            <div class="album-info">
+                <span class="album-title">Dopamine</span>
+                <span class="album-artist">Artista: Børns</span>
+        </li>
+    </ul>
+</aside>
+    <main>
+      
+      <h2>Álbuns em Relevância</h2>
+    <div class="album-row">
+        <div class="album-card">
+            <img src="https://m.media-amazon.com/images/I/91AbZ7RgrEL._UF1000,1000_QL80_.jpg" alt="Capa do Álbum 1" width="150">
+            <h3>Ctrl</h3>
+            <p>Artista: SZA  </p>
+            <p>Avaliação: 5.0/5</p>
+            <a class="favorite-button" href="album">ver descrição</a>
+        </div>
+        <div class="album-card">
+            <img src="https://m.media-amazon.com/images/I/61ON1kLVKOL._UF1000,1000_QL80_.jpg" alt="Capa do Álbum 2" width="150">
+            <h3>Harry tyles</h3>
+            <p>Artista: Harry Styles</p>
+            <p>Avaliação: 4.0/5</p>
+             <a class="favorite-button" href="album">ver descrição</a>
+        </div>
+        <div class="album-card">
+            <img src="https://i.scdn.co/image/ab67616d0000b2737005885df706891a3c182a57" alt="Capa do Álbum 3" width="150" >
+            <h3>Igor</h3>
+            <p>Artista: Tyler <br> The Creator</p>
+            <p>Avaliação: 4.8/5</p>
+            <a class="favorite-button" href="album">ver descrição</a>
+        </div>
+      <div class="album-card">
+            <img src="https://images.genius.com/eb4b2006ef1fa773c1418956ef8fb2d1.1000x1000x1.png" alt="Capa do Álbum 4" width="150" >
+            <h3>Norman Fucking  <br> Rockwell!</h3>
+            <p>Artista: Lana Del Rey</p>
+            <p>Avaliação: 4.7/5</p>
+            <a class="favorite-button" href="album">ver descrição</a>
+        </div>
+      <div class="album-card">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/6/6d/Capa_de_M%C3%BAsicas_para_Churrasco%2C_Vol._1.jpg" alt="Capa do Álbum 5" width="150" >
+            <h3>Músicas Para <br> Churrasco, Vol. 1</h3>
+            <p>Artista: Seu Jorge</p>
+            <p>Avaliação: 4.6/5</p>
+            <a class="favorite-button" href="album">ver descrição</a>
+        </div>
+      <div class="album-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/f8/Taylor_Swift_-_Folklore.png" alt="Capa do Álbum 6" width="150" >
+            <h3>folklore</h3>
+            <p>Artista: Taylor Swift</p>
+            <p>Avaliação: 4.4/5</p>
+           <a class="favorite-button" href="album">ver descrição</a>
+        </div>
+      <div class="album-card">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/e/eb/Mel_1979.jpg" alt="Capa do Álbum 7" width="150">
+            <h3>Mel</h3>
+            <p>Artista: Maria Bethânia</p>
+            <p>Avaliação: 4.2/5</p>
+            <a class="favorite-button" href="album">ver descrição</a>
+        </div>
+      <div class="album-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/95/Rex_Orange_County_-_Pony.png" alt="Capa do Álbum 8" width="150">
+            <h3>Pony</h3>
+            <p>Artista: Rex Orange County</p>
+            <p>Avaliação: 4.0/5</p>
+             <a class="favorite-button" href="album">ver descrição</a>
+        </div>
+      <div class="album-card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3d/3a/18/3d3a18e9-d341-f9f5-230d-df98274fe858/7891430071875.jpg/600x600bf-60.jpg" alt="Capa do Álbum 9" width="150" >
+            <h3>Raça Negra - Vol. 3</h3>
+            <p>Artista: Raça Negra</p>
+            <p>Avaliação: 5.0/5</p>
+            <a class="favorite-button" href="album">ver descrição</a>
+        </div>
+      <div class="album-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9c/Rosal%C3%ADa_-_Motomami.png" alt="Capa do Álbum 10" width="150">
+            <h3>Motomami</h3>
+            <p>Artista: Rosalía</p>
+            <p>Avaliação: 4.3/5</p>
+            <a class="favorite-button" href="album">ver descrição</a>
+        </div>
+      <div class="album-card">
+            <img src="https://m.media-amazon.com/images/I/61IeCixjIZL._UF1000,1000_QL80_.jpg" alt="Capa do Álbum 11" width="150" >
+            <h3>Anti</h3>
+            <p>Artista: Rihanna</p>
+            <p>Avaliação: 4.7/5</p>
+            <a class="favorite-button" href="album">ver descrição</a>
+        </div>
+      <div class="album-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1e/Cage_the_Elephant_Melophobia.jpg" alt="Capa do Álbum 12" width="150" >
+            <h3>Melophobia</h3>
+            <p>Artista: Cage The <br>  Elephant</p>
+            <p>Avaliação: 4.2/5</p>
+            <a class="favorite-button" href="album">ver descrição</a>
+
+    </div>
+    </main>
+

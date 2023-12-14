@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="stylesheets/login-cadastro.css" rel="stylesheet" type="text/css" />
+
+   <title>Cadastro no BeatRater</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastre-se no BeatRater</h1>
+        <form id="registration-form" action="/create" method="post">
+            <label for="username">Nome de usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="senha" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+       <p class="centered-text">Já tem um cadastro? <a class="login-link" href="login">Faça login!</a></p>
+    </div>
+  </div>
+ <script src="javascripts\script.js"></script>
+</body>
+</html>
